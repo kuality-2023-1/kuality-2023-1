@@ -1,1 +1,16 @@
 "hello git"
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#define DIS 0.9
+int main()
+{
+	int a, b, c;
+
+	printf("Enter price: ");
+	scanf(" %d", &a);
+	printf("정가 : %d원\n", a);
+	printf("할인가 : %d원", a *= DIS);
+
+	
+	return 0;
+}
